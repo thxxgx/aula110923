@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        ul{
+            list-style: none;
+            padding: 8px;
+        }
+        li{
+            float: left;
+            padding: 10px;
+        }
+        hi{
+            text-align: center;
+        }
+        input{
+            margin: 10px;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid#ccc;
+            text-align: center;
+            padding: 10px;
+        }
+        th{
+            background-color: rgb(8, 44, 44);
+            color: #ccc
+        }
+        tfoot td{
+            border: 0px;
+        }
+    </style>
+    <title>exercicio 5</title>
+    
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <a href="">
+                <li>Nome</li>
+            </a>
+
+            <a href="">
+                <li>Sobre</li>
+            </a>
+
+            <a href="">
+                <li>Contato</li>
+            </a>
+        </ul>
+        </nav>
+        <br> <br>
+        <h1>exercicio 5</h1>
+    </header>
+    <section>
+        <form>
+            <label form="nome">nome: </label>
+            <input type="text" name="nome" id="nome"><br>
+
+            <label for="cpf">cpf: </label>
+            <input type="text" name="cpf" id="cpf"><br>
+
+            <label for="endereco">endereço: </label>
+            <input type="text" name="endereço" id="endereço"><br>
+
+            <label for="telefone">telefone: </label>
+            <input type="text" name="telefone" id="telefone"><br>
+
+            <label for="email">email: </label>
+            <input type="text" name="email" id="email"><br>
+
+            <input type="submit" value="enviar"> |
+            <input type="reset" value="limpar">
+            <button type="submit">enviar 2</button>
+            
+        </form>
+    </section>
+    <section>
+        <table>
+        <tr>
+            <colgroup>
+            <col style="background-color: ;"
+            </colgroup>
+            <th>nome</th>
+            <th>idade</th>
+            <th>cpf</th>
+            <th>telefone</th>
+            <th>cidade</th>
+        </tr>
+        <tbody>
+        <tr>
+            <td>oi 1</td>
+            <td>oi 1</td>
+            <td>oi 1</td>
+            <td>oi 1</td>
+            <td>oi 1</td>
+        </tr>
+        <tr>
+            <td>oi 3</td>
+            <td>oi 3</td>
+            <td>oi 3</td>
+            <td>oi 3</td>
+            <td>oi 3</td>
+        </tr>
+        <tr>
+            <td>oi 4</td>
+            <td>oi 4</td>
+            <td>oi 4</td>
+            <td>oi 4</td>
+            <td>oi 4</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="5">
+                    <form>
+                        <input type="button" value="anterior">
+                        <select name="select" id="select">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <input type="button" value="proximo">
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+        </tfoot>
+    </table>
+    </section>
+
+</body>
+</html>
